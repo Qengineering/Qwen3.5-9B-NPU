@@ -97,7 +97,7 @@ $ sudo apt-get install libopencv-dev
 
 ## Installing the app.
 ```
-$ git clone https://github.com/Qengineering/Qwen3-VL-4B-NPU
+$ git clone https://github.com/Qengineering/Qwen3.5-9B-NPU
 ```
 
 #### RKLLM, RKNN
@@ -105,7 +105,7 @@ To run InternVL3, you need to have the **rkllm-runtime** library version **1.3.0
 If you don't have these on your machine, or if you have a lower version, you need to install them.<br>
 We have provided the correct versions in the repo.<br>
 ```bash
-$ cd ./Qwen3-VL-4B-NPU/aarch64/library
+$ cd ./Qwen3.5-9B-NPU/aarch64/library
 $ sudo cp ./*.so /usr/local/lib
 $ cd ../include
 $ sudo cp ./*.h /usr/local/include
